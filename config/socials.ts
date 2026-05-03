@@ -18,7 +18,7 @@ export const SocialLinks: SocialInterface[] = [
     name: "LinkedIn",
     username: "Oyewale Dominion",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/namanbarkiya",
+    link: "https://www.linkedin.com/in/dominionoyewale",
   },
   {
     name: "Twitter",
