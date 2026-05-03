@@ -1,8 +1,8 @@
 export const routesConfig: any = {
   mainNav: [
     {
-      title: "Projects",
-      href: "/projects",
+      title: "Skills",
+      href: "/skills",
     },
     {
       title: "Experience",
@@ -11,14 +11,6 @@ export const routesConfig: any = {
     {
       title: "Contributions",
       href: "/contributions",
-    },
-    {
-      title: "Skills",
-      href: "/skills",
-    },
-    {
-      title: "Community",
-      href: "/community",
     },
     {
       title: "Contact",
