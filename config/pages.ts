@@ -18,7 +18,7 @@ export const pagesConfig: PagesConfig = {
     description: "Welcome to my portfolio website.",
     metadata: {
       title: "Home",
-      description: "Naman Barkiya's portfolio website.",
+      description: "Oyewale Dominion's portfolio website.",
     },
   },
   skills: {
@@ -27,7 +27,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Skills",
       description:
-        "Naman Barkiya's key skills that define his professional identity.",
+        "Oyewale Dominion's key skills that define his professional identity.",
     },
   },
   projects: {
@@ -35,7 +35,7 @@ export const pagesConfig: PagesConfig = {
     description: "Showcasing impactful projects and technical achievements.",
     metadata: {
       title: "Projects",
-      description: "Naman Barkiya's projects in building web applications.",
+      description: "Oyewale Dominion's projects in building web applications.",
     },
   },
   contact: {
@@ -43,7 +43,7 @@ export const pagesConfig: PagesConfig = {
     description: "Let's connect and explore collaborations.",
     metadata: {
       title: "Contact",
-      description: "Contact Naman Barkiya.",
+      description: "Contact Oyewale Dominion.",
     },
   },
   contributions: {
@@ -52,15 +52,15 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Contributions",
       description:
-        "Naman Barkiya's open-source contributions and community involvement.",
+        "Oyewale Dominion's open-source contributions and community involvement.",
     },
   },
   resume: {
     title: "Resume",
-    description: "Naman Barkiya's resume.",
+    description: "Oyewale Dominion's resume.",
     metadata: {
       title: "Resume",
-      description: "Naman Barkiya's resume.",
+      description: "Oyewale Dominion's resume.",
     },
   },
   experience: {
@@ -69,7 +69,7 @@ export const pagesConfig: PagesConfig = {
     metadata: {
       title: "Experience",
       description:
-        "Naman Barkiya's professional journey and experience timeline.",
+        "Oyewale Dominion's professional journey and experience timeline.",
     },
   },
 };
