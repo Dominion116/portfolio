@@ -1,4 +1,3 @@
-<a href="https://buymeachai.ezee.li/namanbarkiya" target="_blank" rel="noopener noreferrer"><img src="https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767625332/buy_chai_naman.png" alt="Buy Me A Chai" width="200"></a>
 
 # Oyewale Dominion Portfolio
 
@@ -124,7 +123,3 @@ The project is ready to deploy on Vercel or any platform that supports Next.js 1
 ## License
 
 This project is released under the [MIT License](LICENSE).
-
-## Credits
-
-Built and maintained by Oyewale Dominion.
