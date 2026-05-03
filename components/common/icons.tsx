@@ -44,16 +44,14 @@ import {
 } from "react-icons/hi";
 import { IoIosGitBranch } from "react-icons/io";
 import {
-  SiAmazonwebservices,
   SiAngular,
   SiBootstrap,
-  SiCss3,
+  SiCss,
   SiExpress,
   SiGmail,
   SiGraphql,
   SiHtml5,
   SiJavascript,
-  SiLinkedin,
   SiMongodb,
   SiMui,
   SiMysql,
@@ -68,6 +66,7 @@ import {
   SiTypescript,
   SiX,
 } from "react-icons/si";
+import { FaLinkedin } from "react-icons/fa";
 
 export const Icons = {
   contact: Phone,
@@ -105,10 +104,10 @@ export const Icons = {
   link: HiOutlineLink,
   externalLink: HiOutlineExternalLink,
   star: AiFillStar,
-  amazonaws: SiAmazonwebservices,
+  amazonaws: Laptop,
   angular: SiAngular,
   bootstrap: SiBootstrap,
-  css3: SiCss3,
+  css3: SiCss,
   express: SiExpress,
   graphql: SiGraphql,
   html5: SiHtml5,
@@ -127,7 +126,7 @@ export const Icons = {
   typescript: SiTypescript,
   gmail: SiGmail,
   twitter: SiX,
-  linkedin: SiLinkedin,
+  linkedin: FaLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
   gitHub: ({ ...props }: LucideProps) => (
