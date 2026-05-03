@@ -1,149 +1,130 @@
 <a href="https://buymeachai.ezee.li/namanbarkiya" target="_blank" rel="noopener noreferrer"><img src="https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767625332/buy_chai_naman.png" alt="Buy Me A Chai" width="200"></a>
 
-# Next.js 16 Developer Portfolio Template
+# Oyewale Dominion Portfolio
 
-A modern, responsive, and SEO-optimized **Next.js 16 portfolio template** designed for developers, designers, and professionals. This open-source project helps you showcase your skills, experience, and projects with an elegant interface that stands out. Built with server-side rendering, TypeScript, and the latest web standards for optimal performance.
+This repository powers a personal portfolio built with Next.js, React, TypeScript, and Tailwind CSS. It presents professional experience, selected work, skills, and open-source contributions in a fast, responsive interface that is designed to be easy to maintain and straightforward to customize.
 
-## ✨ Key Features
+The site is structured around a small set of focused sections rather than a sprawling template. The main navigation keeps attention on the most useful entry points: Skills, Experience, Contributions, and Contact. Additional content is organized through configuration files so the portfolio can be updated without rewriting the app.
 
-- **Professional Experience Timeline**: Showcase your career journey with a visually appealing timeline
-- **Project Showcase**: Display your technical projects with detailed information and live demos
-- **Multiple Themes**: Dark, Light, Retro, Cyberpunk, Aurora, Synthwave, and Paper themes
-- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
-- **100% Performance Score**: Fully optimized for speed and Core Web Vitals
-- **SEO-Ready**: Structured data, meta tags, and optimized content
-- **Modern Tech Stack**: Next.js 16, React 19, TypeScript, Tailwind CSS, and shadcn/ui
-- **Easy Customization**: Well-organized code structure with minimal effort required
-- **Animations**: Subtle animations for engaging user experience
-- **Analytics Integration**: Ready for Google Analytics tracking
-- **Contact Form**: Functional contact form with validation
-- **Open Source**: Free to use and modify for your personal portfolio
+## What It Includes
 
-## 🚀 Demo
+- A polished portfolio home page with animated presentation and clear section hierarchy
+- Dedicated pages for skills, experience, contributions, projects, resume, and contact
+- A responsive navigation and layout that work well across desktop and mobile
+- A reusable contact form backed by server-side form handling and validation
+- SEO-friendly metadata, sitemap support, and a PWA manifest
+- Theme support through the existing Tailwind and UI component setup
+- Analytics-ready environment variables for measurement and tracking
 
-View the live demo at [https://nbarkiya.xyz/](https://nbarkiya.xyz)
+## Tech Stack
 
-https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
+- Next.js 16 with the App Router
+- React 19
+- TypeScript
+- Tailwind CSS
+- shadcn/ui and Radix UI primitives
+- Framer Motion for motion and transitions
+- React Hook Form, Zod, and server actions for form handling
+- Vercel Analytics and Google Analytics support
 
-## Ranks #1 on AI Search (top-notch AEO/GEO)
+## Project Structure
 
-https://github.com/user-attachments/assets/fc071310-9d1c-4832-877f-23f9569893d7
+The codebase is organized around configuration-first content and reusable UI pieces:
 
-## 🛠️ Tech Stack
+- `config/site.ts` defines the site identity, links, and SEO metadata
+- `config/pages.ts` defines page titles and descriptions
+- `config/skills.ts`, `config/experience.ts`, `config/contributions.ts`, and `config/projects.ts` hold the portfolio content
+- `app/(root)/` contains the public-facing routes and shared marketing layout
+- `components/` contains reusable navigation, layout, form, and content components
+- `app/api/contact/route.ts` handles contact form submissions
 
-- **Framework**: [Next.js 16](https://nextjs.org/) with Turbopack
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **UI Library**: [React 19](https://react.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
-- **Animations**: [Framer Motion](https://www.framer.com/motion/)
-- **Form Handling**: Server actions with validation
-- **Analytics**: Google Analytics + Vercel Analytics
-- **Deployment**: [Vercel](https://vercel.com)
+## Getting Started
 
-## 🔧 Getting Started
+### Prerequisites
 
-To get started with your own portfolio website:
+- Node.js 20 or newer
+- npm, pnpm, or yarn
 
-1. Clone this repository:
+### Install
 
-   ```bash
-   git clone https://github.com/namanbarkiya/minimal-next-portfolio.git my-portfolio
-   cd my-portfolio
-   ```
+```bash
+git clone https://github.com/<your-account>/<your-repo>.git
+cd <your-repo>
+npm install
+```
 
-2. Copy the contents of `.env.copy` to a new `.env` file and fill in the required information.
+### Configure Environment
 
-3. Install dependencies:
+Copy `.env.copy` to `.env` and populate the values for your setup:
 
-   ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   ```
+```bash
+cp .env.copy .env
+```
 
-4. Start the development server:
+The included variables are used for the contact form, analytics, and resume link:
 
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   ```
+- `GOOGLE_FORM_LINK`
+- `GOOGLE_FORM_FIELD_ID_NAME`
+- `GOOGLE_FORM_FIELD_ID_EMAIL`
+- `GOOGLE_FORM_FIELD_ID_MESSAGE`
+- `GOOGLE_FORM_FIELD_ID_SOCIAL`
+- `NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID`
+- `NEXT_PUBLIC_RESUME_LINK`
 
-5. Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website.
+### Run Locally
 
-## 🎨 Customization
+```bash
+npm run dev
+```
 
-Easily personalize your portfolio using the configuration files below:
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-| Section            | How to Customize                                       | File Location             |
-| ------------------ | ------------------------------------------------------ | ------------------------- |
-| **Personal Info**  | Edit your name, bio, and social links                  | `config/site.ts`          |
-| **Skills**         | Add or modify the technologies and skills you showcase | `config/skills.ts`        |
-| **Projects**       | Highlight your technical projects                      | `config/projects.ts`      |
-| **Experience**     | Add your work and professional experience              | `config/experience.ts`    |
-| **Contributions**  | Display open-source/community contributions            | `config/contributions.ts` |
-| **Colors & Theme** | Customize color palette and themes                     | `tailwind.config.js`      |
+### Build for Production
 
-All configuration files are well-organized and documented for a smooth customization process.
+```bash
+npm run build
+npm run start
+```
 
-## 🌟 Features In Detail
+## Updating Content
 
-### Professional Experience Timeline
+Most of the visible content lives in the `config/` directory, which keeps the portfolio easy to update.
 
-An interactive, animated timeline that showcases your career journey with expandable sections for details about each position and company.
+- Edit `config/site.ts` to change the owner name, social links, and metadata
+- Update `config/pages.ts` to adjust page copy and metadata descriptions
+- Modify the section data files in `config/` to refresh skills, experience, projects, or contributions
+- Tweak `app/(root)/layout.tsx` and the components in `components/common/` if you want to adjust navigation or layout behavior
 
-### Project Showcase
+Because the content is data-driven, you can make meaningful changes without touching the rendering logic in most cases.
 
-Display your technical projects with detailed information, technologies used, live demo links, and comprehensive project descriptions.
+## Common Commands
 
-### Skills Showcase
+```bash
+npm run dev
+npm run build
+npm run start
+npm run lint
+```
 
-Visually represent your technical and soft skills with customizable ratings and categories.
+## Contributing
 
-### Contact Form Integration
+Contributions are welcome. If you want to improve the portfolio, keep changes focused and consistent with the existing structure.
 
-A ready-to-use contact form that can connect to various backend services.
+1. Create a feature branch.
+2. Make your changes and verify them locally.
+3. Run `npm run build` and, when relevant, `npm run lint`.
+4. Open a pull request with a short summary of the change and any setup notes reviewers should know.
 
-### SEO Optimization
+Please avoid introducing unrelated refactors in the same pull request so changes stay easy to review.
 
-Built-in SEO features with proper meta tags, structured data, and semantic HTML.
+## Deployment
 
-## 📱 Performance and Responsiveness
+The project is ready to deploy on Vercel or any platform that supports Next.js 16. Production builds are handled with the standard Next.js commands, so deployment usually only requires setting the environment variables from `.env.copy` in your hosting provider.
 
-![best-portfolio-website-score](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
-![100-score-vercel](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
+## License
 
-This template is optimized for:
+This project is released under the [MIT License](LICENSE).
 
-- 100% Lighthouse score
-- Excellent Core Web Vitals metrics
-- Responsive design across all device sizes
-- Fast loading times with proper image optimization
+## Credits
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgements
-
-- Design inspired by modern portfolio best practices
-- Built by [Naman Barkiya](https://github.com/namanbarkiya)
-- Icons from [Lucide](https://lucide.dev/)
-
-## 💻 Deploy on Vercel
-
-The easiest way to deploy your portfolio is using [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), the platform from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## 🌟 Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=namanbarkiya/minimal-next-portfolio&type=Date)](https://star-history.com/#namanbarkiya/minimal-next-portfolio&Date)
-
----
-
-**Built with ❤️ by [Naman Barkiya](https://github.com/namanbarkiya)**
+Built and maintained by Oyewale Dominion.
