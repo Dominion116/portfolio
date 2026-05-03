@@ -69,37 +69,6 @@ export const Projects: ProjectInterface[] = [
     },
   },
   {
-    id: "convot",
-    companyName: "Convot",
-    type: "Personal",
-    category: ["Full Stack", "Backend", "Web Dev"],
-    shortDescription:
-      "Production-ready AI chatbot platform that crawls, indexes, and embeds knowledge from PDFs/URLs/text to deliver source-grounded answers via a one-line widget.",
-    techStack: ["Next.js", "React", "Node.js", "Typescript", "Python"],
-    startDate: new Date("2024-04-01"),
-    endDate: new Date("2024-10-01"),
-    companyLogoImg: "/projects/convot/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Ingestion & Retrieval",
-        description:
-          "Designed ingestion and retrieval pipelines supporting multiple content sources with secure tenant isolation.",
-        imgArr: ["/logo.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "Convot is a production-ready AI chatbot platform designed to be embedded on any website with a single line widget.",
-        "It supports crawling and indexing knowledge from PDFs, URLs, and plain text, and it returns context-aware, source-grounded answers with integrated analytics.",
-      ],
-      bullets: [
-        "Built a production-ready AI chatbot platform with integrated analytics and a one-line embed widget.",
-        "Designed ingestion and retrieval pipelines to support multiple sources (PDFs, URLs, text) with tenant isolation.",
-        "Focused on reliability, security, and traceable answers by grounding responses in retrieved sources.",
-      ],
-    },
-  },
-  {
     id: "niya-saas-template",
     companyName: "Niya SaaS Template (30+ GitHub stars)",
     type: "Personal",
