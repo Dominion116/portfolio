@@ -1,23 +1,22 @@
 export const siteConfig = {
-  name: "Naman Barkiya - Applied AI Engineer",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Oyewale Dominion - Applied AI Engineer",
+  authorName: "Oyewale Dominion",
+  username: "Dominion116",
   description:
-    "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
-  url: "https://nbarkiya.xyz",
+    "Oyewale Dominion - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
+  url: "https://oyewale.dev",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
-    templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
+    twitter: "https://x.com/dominionli",
+    github: "https://github.com/Dominion116",
   },
   ogImage:
     "https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767384721/naman_portfolio_og_image.png",
   iconIco:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357384/assets/naman-favicon.ico",
+    "https://res.cloudinary.com/dhhq7xc6g/image/upload/f_auto,q_auto/ChatGPT_Image_May_3_2026_10_53_28_PM_iy8qm4.png",
   logoIcon:
-    "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
+    "https://res.cloudinary.com/dhhq7xc6g/image/upload/f_auto,q_auto/ChatGPT_Image_May_3_2026_10_53_28_PM_iy8qm4.png",
   keywords: [
-    "Naman Barkiya",
+    "Oyewale Dominion",
     "Applied AI Engineer",
     "AI Engineer",
     "Software Engineer",
@@ -36,5 +35,11 @@ export const siteConfig = {
     "Backend Developer",
     "Frontend Developer",
     "Tech Portfolio",
+    "Solidity",
+    "Rust",
+    "Blockchain Developer",
+    "Smart Contract Developer",
+    "Soroban",
+    "Sui Move"
   ],
 };
