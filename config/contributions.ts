@@ -7,39 +7,25 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
   {
-    repo: "minimal-next-portfolio",
+    repo: "EventHorizon",
     contibutionDescription:
-      "Open-source Next.js portfolio template. Trusted and forked by developers worldwide (130+ GitHub stars).",
-    repoOwner: "namanbarkiya",
-    link: "https://github.com/namanbarkiya/minimal-next-portfolio",
+      "Implemented automated dividend distribution with epoch-based calculations; integrated with existing staking contract for proportional distributions; optimized gas for mass-distribution; added unit tests and documentation. Merged as PR #336.",
+    repoOwner: "EDOHWARES",
+    link: "https://github.com/EDOHWARES/EventHorizon/pull/336",
   },
   {
-    repo: "niya-saas-template",
+    repo: "facilpay-contracts",
     contibutionDescription:
-      "Modern Next.js SaaS template. Production-ready starter for devs and AI startups (30+ GitHub stars).",
-    repoOwner: "namanbarkiya",
-    link: "https://github.com/namanbarkiya/niya-saas-template",
+      "Added batch escrow creation for bulk merchant operations: introduced EscrowBatchEntry and BatchEscrowResult structs, implemented batch creation functions with per-entry success/failure handling, and added comprehensive tests. Merged as PR #153.",
+    repoOwner: "Facil-Pay",
+    link: "https://github.com/Facil-Pay/facilpay-contracts/pull/153",
   },
   {
-    repo: "autogen",
+    repo: "SoroTask",
     contibutionDescription:
-      "Improved the gallery component to showcase the community work.",
-    repoOwner: "Microsoft",
-    link: "https://github.com/microsoft/autogen/pull/1445",
-  },
-  {
-    repo: "creativecommons",
-    contibutionDescription:
-      "Closed Issue: Fixed navbar issue on the main website of creative common.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/738",
-  },
-  {
-    repo: "creativecommons",
-    contibutionDescription:
-      "Added section for 'Other Opportunities' on main page.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/719",
+      "Implemented distributed keeper locking and RPC failover for reliability and scaling: added Redis-based distributed locking to prevent duplicate task execution, designed multi-endpoint RPC client with automatic health monitoring and weighted failover, and included comprehensive tests for concurrent keeper instances.",
+    repoOwner: "SoroLabs",
+    link: "https://github.com/SoroLabs/SoroTask/pull/342",
   },
 ];
 
