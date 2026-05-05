@@ -68,6 +68,8 @@ import {
   SiSolidity,
   SiVercel,
   SiRust,
+  SiWordpress,
+  SiFramer
 } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -128,6 +130,8 @@ export const Icons = {
   solidity: SiSolidity,
   vercel: SiVercel,
   rust: SiRust,
+  wordpress: SiWordpress,
+  framer: SiFramer,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
   gmail: SiGmail,

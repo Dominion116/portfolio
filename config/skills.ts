@@ -161,6 +161,20 @@ export const skillsUnsorted: skillsInterface[] = [
       "Write smart contracts for blockchain(Solana) applications using a high-level programming language.",
     rating: 3,
     icon: Icons.rust,
+  },
+  {
+    name: "WordPress",
+    description:
+      "Build and manage websites easily with a popular content management system.",
+    rating: 5,
+    icon: Icons.wordpress,
+  },
+  {
+    name: "Framer",
+    description:
+      "Build and manage websites easily with a popular content management system.",
+    rating: 4,
+    icon: Icons.framer,
   }
 ];
 
