@@ -112,18 +112,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
         )}
       >
         <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          themes={[
-            "light",
-            "dark",
-            "retro",
-            "cyberpunk",
-            "paper",
-            "aurora",
-            "synthwave",
-          ]}
         >
           {children}
           <Analytics />

@@ -56,11 +56,13 @@ export type ValidSkills =
   | "Flutter"
   | "Dart"
   | "Flask"
-  | "Django"
-  | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "Solidity"
+  | "DeFi"
+  | "Smart Contracts"
+  | "Sui Move";
 
 export type ValidCategory =
   | "Full Stack"

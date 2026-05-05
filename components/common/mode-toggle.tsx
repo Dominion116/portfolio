@@ -1,9 +1,8 @@
 "use client";
 
-import { useTheme } from "next-themes";
-
 import { Icons } from "@/components/common/icons";
 import { Button } from "@/components/ui/button";
+import { useTheme } from "@/components/common/theme-provider";
 import {
   DropdownMenu,
   DropdownMenuContent,
