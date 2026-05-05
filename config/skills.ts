@@ -23,17 +23,24 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
+    name: "Solidity",
+    description:
+      "Write smart contracts for blockchain(EVMs) applications using a high-level programming language.",
+    rating: 5,
+    icon: Icons.solidity,
+  },
+  {
     name: "GraphQL",
     description:
       "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
+    rating: 3,
     icon: Icons.graphql,
   },
   {
     name: "Nest.js",
     description:
       "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
+    rating: 3,
     icon: Icons.nestjs,
   },
   {
@@ -61,14 +68,14 @@ export const skillsUnsorted: skillsInterface[] = [
     name: "Typescript",
     description:
       "Enhance JavaScript with static types, making code more understandable and reliable.",
-    rating: 5,
+    rating: 4,
     icon: Icons.typescript,
   },
   {
     name: "Javascript",
     description:
       "Create interactive and dynamic web experiences with the versatile scripting language.",
-    rating: 5,
+    rating: 4,
     icon: Icons.javascript,
   },
   {
@@ -93,13 +100,6 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.react,
   },
   {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
     name: "Redux",
     description:
       "Manage app state effectively using a predictable and centralized state container.",
@@ -107,20 +107,12 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.redux,
   },
   {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
     name: "Material UI",
     description:
       "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
+    rating: 3,
     icon: Icons.mui,
   },
-
   {
     name: "Tailwind CSS",
     description:
@@ -156,6 +148,20 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.netlify,
   },
+  {
+    name: "Vercel",
+    description:
+      "Deploy and host web applications effortlessly with a platform optimized for frontend frameworks.",
+    rating: 5,
+    icon: Icons.vercel,
+  },
+  {
+    name: "Rust",
+    description:
+      "Write smart contracts for blockchain(Solana) applications using a high-level programming language.",
+    rating: 3,
+    icon: Icons.rust,
+  }
 ];
 
 export const skills = skillsUnsorted

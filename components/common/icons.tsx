@@ -65,6 +65,9 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiX,
+  SiSolidity,
+  SiVercel,
+  SiRust,
 } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -122,6 +125,9 @@ export const Icons = {
   react: SiReact,
   redux: SiRedux,
   socketio: SiSocketdotio,
+  solidity: SiSolidity,
+  vercel: SiVercel,
+  rust: SiRust,
   tailwindcss: SiTailwindcss,
   typescript: SiTypescript,
   gmail: SiGmail,
