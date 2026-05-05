@@ -81,5 +81,6 @@ export const experiences: ExperienceInterface[] = [
     ],
     skills: ["Node.js", "express.js", "React", "Next.js", "Typescript", "CI/CD", "AWS"],
     companyUrl: "https://metaminds.agency",
+    logo: "https://res.cloudinary.com/dhhq7xc6g/image/upload/q_auto/f_auto/v1777981473/metaminds_r5zvx5.jpg",
   },
 ];
