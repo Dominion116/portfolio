@@ -71,7 +71,7 @@ export const experiences: ExperienceInterface[] = [
     startDate: new Date("2023-01-01"),
     endDate: new Date("2024-12-01"),
     description: [
-      "Led full-stack development of enterprise web applications across e-commerce, SaaS, and digital marketing sectors.",
+      "Full-stack development of enterprise web applications across e-commerce, SaaS, and digital marketing sectors.",
       "Built scalable solutions with Node.js, Express, React, and Next.js while architecting robust backend APIs and CI/CD pipelines.",
       "Collaborated with designers, product managers, and DevOps engineers to deliver reliable client work.",
     ],
