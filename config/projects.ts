@@ -29,94 +29,62 @@ export interface ProjectInterface {
 
 export const Projects: ProjectInterface[] = [
   {
-    id: "portfolio-template",
-    companyName: "Portfolio Website (130+ GitHub stars)",
-    type: "Personal",
-    category: ["Web Dev", "Frontend", "UI/UX"],
-    shortDescription:
-      "Open-source Next.js portfolio template recognized and forked by developers worldwide, optimized for SEO/AEO and performance.",
-    websiteLink: "https://nbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/minimal-next-portfolio",
-    techStack: [
-      "Next.js",
-      "React",
-      "Typescript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Vercel",
-    ],
-    startDate: new Date("2024-01-01"),
-    endDate: new Date("2025-12-01"),
-    companyLogoImg: "/projects/portfolio/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Landing & Sections",
-        description:
-          "A clean, minimal landing page with sections for skills, projects, contributions, and experience.",
-        imgArr: ["/profile-img.jpg"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "I created an open-source Next.js portfolio template to help developers ship a modern, responsive portfolio quickly.",
-        "The project focuses heavily on performance, clean typography, and strong SEO/AEO foundations, and it has been adopted and forked by developers globally.",
-      ],
-      bullets: [
-        "Created an open-source Next.js portfolio template recognized and forked by developers worldwide.",
-        "Ranked #1 on ChatGPT search for “best Next.js portfolio template GitHub” through AEO/GEO optimization.",
-        "Maintained a fast, responsive UI with a minimal, themeable design system.",
-      ],
+  id: "afrimo-database",
+  companyName: "Afrimobile Technology",
+  type: "Professional",
+  category: ["Backend", "Web Dev"],
+  shortDescription:
+    "Backend API powering a blockchain-integrated smartphone platform with referral systems, share trading, installment plans, withdrawals, and crypto wallet integration.",
+  websiteLink: "https://www.afrimobiletech.com/",
+  githubLink: "https://github.com/BernardOnuh/Afrimo-Database",
+  techStack: [
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "JWT",
+    "Web3.js",
+    "Ethers.js",
+    "Cloudinary",
+    "Node-Cron",
+    "Winston",
+  ],
+  startDate: new Date("2024-01-01"),
+  endDate: new Date("2025-12-01"),
+  companyLogoImg: "https://res.cloudinary.com/dhhq7xc6g/image/upload/q_auto/f_auto/v1778159172/afrimobile_lnkt6p.png",
+  pagesInfoArr: [
+    {
+      title: "Referral & Earnings System",
+      description:
+        "Multi-tier referral engine with automated cron-based reward distribution, audit logging, and real-time earnings tracking.",
+      imgArr: [],
     },
-  },
-  {
-    id: "niya-saas-template",
-    companyName: "Niya SaaS Template (30+ GitHub stars)",
-    type: "Personal",
-    category: ["Full Stack", "Web Dev", "UI/UX"],
-    shortDescription:
-      "Production-ready Next.js 15 template for developers and AI startups. Includes authentication, state management, beautiful UI components, and everything needed to build scalable SaaS applications.",
-    websiteLink: "https://niya.nbarkiya.xyz",
-    githubLink: "https://github.com/namanbarkiya/niya-saas-template",
-    techStack: ["Next.js", "React", "Typescript", "Supabase", "Tailwind CSS"],
-    startDate: new Date("2024-08-01"),
-    endDate: new Date("2025-01-01"),
-    companyLogoImg: "/projects/niya/logo.png",
-    pagesInfoArr: [
-      {
-        title: "Landing Page",
-        description:
-          "Modern landing page showcasing the template features, tech stack, and pricing options.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Authentication System",
-        description:
-          "Complete authentication system with Supabase, protected routes, and role-based access control.",
-        imgArr: ["/logo.png"],
-      },
-      {
-        title: "Dashboard & Components",
-        description:
-          "Beautiful UI components with Magic UI, Radix primitives, and comprehensive dashboard templates.",
-        imgArr: ["/logo.png"],
-      },
-    ],
-    descriptionDetails: {
-      paragraphs: [
-        "Niya is a production-ready Next.js 15 template designed for developers and AI startups. Built with modern best practices, it includes everything needed to build scalable SaaS applications.",
-        "The template features a complete authentication system with Supabase, beautiful UI components with Magic UI and Radix primitives, state management with Zustand and React Query, and full TypeScript support with Zod validation.",
-        "It's optimized for performance, includes SEO-friendly metadata, and provides a solid foundation for rapid prototyping and production deployment.",
-      ],
-      bullets: [
-        "Created a production-ready Next.js 15 template with complete authentication system and protected routes.",
-        "Integrated Supabase for database, authentication, and real-time features with full TypeScript support.",
-        "Built comprehensive UI component library with Magic UI, Radix primitives, and Tailwind CSS styling.",
-        "Implemented state management with Zustand for client state and React Query for server state management.",
-        "Designed for developers and AI startups with all essential features to start building SaaS products.",
-        "Achieved 30+ GitHub stars and recognition as a comprehensive starter template for modern web applications.",
-      ],
+    {
+      title: "Share & Loan Module",
+      description:
+        "Share trading, share loans, co-founder installment plans, and a franchise module with dedicated controllers and routes.",
+      imgArr: [],
     },
+    {
+      title: "Admin & Withdrawal Controls",
+      description:
+        "Admin analytics dashboard, withdrawal scheduling, audit trails, PDF report generation, and per-user withdrawal restrictions.",
+      imgArr: [],
+    },
+  ],
+  descriptionDetails: {
+    paragraphs: [
+      "Built and maintained the full backend infrastructure for Afrimobile Technology's platform, covering user management, share transactions, referral logic, and admin controls.",
+      "Integrated blockchain tooling (Web3.js, Ethers.js) for crypto wallet support and on-chain transaction handling alongside a REST API serving multiple client applications.",
+    ],
+    bullets: [
+      "Engineered a multi-tier referral and earnings system with automated cron-based reward distribution.",
+      "Implemented share trading, share loans, co-founder installment plans, and a franchise module with dedicated controllers and routes.",
+      "Built admin analytics, withdrawal controls, audit logging, and withdrawal scheduling with PDF report generation.",
+      "Integrated Cloudinary for media uploads, Nodemailer for email notifications, and JWT-based authentication with rate limiting.",
+    ],
   },
+},
   {
     id: "portfolio-card",
     companyName: "Portfolio Card",

@@ -62,7 +62,15 @@ export type ValidSkills =
   | "Solidity"
   | "DeFi"
   | "Smart Contracts"
-  | "Sui Move";
+  | "Sui Move"
+  | "Express.js"
+  | "Mongoose"
+  | "JWT"
+  | "Web3.js"
+  | "Ethers.js"
+  | "Cloudinary"
+  | "Node-Cron"
+  | "Winston";
 
 export type ValidCategory =
   | "Full Stack"
