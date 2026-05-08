@@ -10,7 +10,7 @@ export const siteConfig = {
     github: "https://github.com/Dominion116",
   },
   ogImage:
-    "https://res.cloudinary.com/dvt5vkfwz/image/upload/v1767384721/naman_portfolio_og_image.png",
+    "https://res.cloudinary.com/dhhq7xc6g/image/upload/q_auto/f_auto/v1778256570/Screenshot_2026-05-08_at_5.09.21_PM_lnh7ip.png",
   iconIco:
     "https://res.cloudinary.com/dhhq7xc6g/image/upload/f_auto,q_auto/ChatGPT_Image_May_3_2026_10_53_28_PM_iy8qm4.png",
   logoIcon:
