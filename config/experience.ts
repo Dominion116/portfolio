@@ -79,7 +79,7 @@ export const experiences: ExperienceInterface[] = [
       "Led full-stack development across e-commerce, SaaS, and digital marketing products.",
       "Architected backend APIs and CI/CD pipelines while collaborating with cross-functional teams to ship scalable solutions.",
     ],
-    skills: ["Node.js", "express.js", "React", "Next.js", "Typescript", "CI/CD", "AWS"],
+    skills: ["Node.js", "express.js", "React", "Next.js", "Typescript", "WordPress", "Webflow"],
     companyUrl: "https://metaminds.agency",
     logo: "https://res.cloudinary.com/dhhq7xc6g/image/upload/q_auto/f_auto/v1777981473/metaminds_r5zvx5.jpg",
   },

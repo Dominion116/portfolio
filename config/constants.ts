@@ -74,7 +74,9 @@ export type ValidSkills =
   | "Vite"
   | "Stacks Clarity"
   | "Bitcoin"
-  | "Ethereum";
+  | "Ethereum"
+  | "WordPress"
+  | "Webflow";
 
 export type ValidCategory =
   | "Full Stack"
