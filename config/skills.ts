@@ -36,13 +36,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 3,
     icon: Icons.graphql,
   },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 3,
-    icon: Icons.nestjs,
-  },
+  // {
+  //   name: "Nest.js",
+  //   description:
+  //     "Create scalable and modular applications with a progressive Node.js framework.",
+  //   rating: 3,
+  //   icon: Icons.nestjs,
+  // },
   {
     name: "express.js",
     description:
@@ -106,13 +106,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.redux,
   },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 3,
-    icon: Icons.mui,
-  },
+  // {
+  //   name: "Material UI",
+  //   description:
+  //     "Create stunning and responsive UIs with a popular React UI framework.",
+  //   rating: 3,
+  //   icon: Icons.mui,
+  // },
   {
     name: "Tailwind CSS",
     description:
@@ -127,13 +127,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 3,
     icon: Icons.amazonaws,
   },
-  {
-    name: "Bootstrap",
-    description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
-  },
+  // {
+  //   name: "Bootstrap",
+  //   description:
+  //     "Quickly create responsive and appealing web designs using a popular CSS framework.",
+  //   rating: 2,
+  //   icon: Icons.bootstrap,
+  // },
   {
     name: "MySQL",
     description:
@@ -141,13 +141,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 2,
     icon: Icons.mysql,
   },
-  {
-    name: "Netlify",
-    description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 4,
-    icon: Icons.netlify,
-  },
+  // {
+  //   name: "Netlify",
+  //   description:
+  //     "Manage and organize relational databases efficiently for data-driven applications.",
+  //   rating: 4,
+  //   icon: Icons.netlify,
+  // },
   {
     name: "Vercel",
     description:

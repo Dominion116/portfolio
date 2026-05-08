@@ -1,6 +1,7 @@
 "use client";
 
 import { zodResolver } from "@hookform/resolvers/zod";
+import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import * as z from "zod";
 
@@ -32,8 +33,6 @@ const formSchema = z.object({
 export function ContactForm() {
   const storeModal = useModalStore();
 
-  // const [open, setOpen] = useState(false);
-
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -44,29 +43,30 @@ export function ContactForm() {
     },
   });
 
-  // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
+        {
+          from_name: values.name,
+          from_email: values.email,
+          message: values.message,
+          social: values.social ?? "",
         },
-        body: JSON.stringify(values),
-      });
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
+      );
 
       form.reset();
 
-      if (response.status === 200) {
-        storeModal.onOpen({
-          title: "Thankyou!",
-          description:
-            "Your message has been received! I appreciate your contact and will get back to you shortly.",
-          icon: Icons.successAnimated,
-        });
-      }
+      storeModal.onOpen({
+        title: "Thankyou!",
+        description:
+          "Your message has been received! I appreciate your contact and will get back to you shortly.",
+        icon: Icons.successAnimated,
+      });
     } catch (err) {
-      console.log("Err!", err);
+      console.log("EmailJS error:", err);
     }
   }
 
@@ -85,9 +85,6 @@ export function ContactForm() {
               <FormControl>
                 <Input placeholder="Enter your name" {...field} />
               </FormControl>
-              {/* <FormDescription>
-                                This is your public display name.
-                            </FormDescription> */}
               <FormMessage />
             </FormItem>
           )}
@@ -127,9 +124,6 @@ export function ContactForm() {
               <FormControl>
                 <Input placeholder="Link for social account" {...field} />
               </FormControl>
-              {/* <FormDescription>
-                                This is your public display name.
-                            </FormDescription> */}
               <FormMessage />
             </FormItem>
           )}
