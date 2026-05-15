@@ -3,7 +3,7 @@ export const siteConfig = {
   authorName: "Oyewale Dominion",
   username: "Dominion116",
   description:
-    "Oyewale Dominion - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
+    "Oyewale Dominion - Applied AI Engineer working at the intersection of AI, blockchain, data, and scalable software systems. Explore my projects, experience, and contributions in software development, blockchain and AI.",
   url: "https://oyewale.dev",
   links: {
     twitter: "https://x.com/dominionlii",
