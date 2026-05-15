@@ -24,11 +24,13 @@ export const experiences: ExperienceInterface[] = [
     endDate: "Present",
     description: [
       "Developed DeFi protocols managing over $10k in transactions and deployed smart contracts with zero security incidents at Web3Nova.",
-      "Mentored junior developers and collaborated cross-functionally to deliver complex blockchain solutions.",
+      "Explored agentic AI systems for workflow automation and intelligent task execution.",
+      "Mentored junior developers and collaborating cross-functionally to deliver blockchain solutions.",
     ],
     achievements: [
       "Developed DeFi protocols managing over $10k in transactions and deployed smart contracts with zero security incidents.",
-      "Mentored junior developers and collaborated cross-functionally to deliver complex blockchain solutions.",
+      "Explored agentic AI systems for workflow automation and intelligent task execution.",
+      "Mentored junior developers and collaborating cross-functionally to deliver blockchain solutions.",
     ],
     skills: ["Typescript", "React", "Next.js", "Node.js", "AWS", "CI/CD"],
     companyUrl: "https://www.web3nova.org/",
